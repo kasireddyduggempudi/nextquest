@@ -1,6 +1,6 @@
 # Task Management API
 
-The Task Management API provides endpoints for managing tasks and user authentication. Users can perform CRUD operations on tasks after authenticating using JSON Web Tokens (JWT).
+The Task Management API provides endpoints for managing tasks and user authentication. Users can perform CRUD operations on tasks after authenticating using JSON Web Tokens (JWT)
 
 ## Getting Started
 
