@@ -22,4 +22,7 @@ npm install
 
 ```bash
 npm run start
+
+Access at: localhost:8080/
 ```
+
