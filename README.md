@@ -12,8 +12,8 @@ The Task Management API provides endpoints for managing tasks and user authentic
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/task-management-api.git
-cd task-management-api
+git clone https://github.com/kasireddyduggempudi/nextquest.git
+cd nextquest
 npm install
 
 ```
