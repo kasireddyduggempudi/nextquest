@@ -26,7 +26,7 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   try {
     const { title, description, dueDate, status } = req.body;
-    const task = await Task.findByIdAndUpdate(req.params.id, { title, description, dueDate, status });
+    const task = await Task.findByIdAndUpdate(req.params.id, { title, description, dueDate, status }, {new: true});
     res.json({'status': 'success', data: task});
   } catch (error) {
     res.status(500).json({ error: error.message });
